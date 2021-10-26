@@ -1,0 +1,53 @@
+<html>
+
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title> Quiz App </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+</head>
+
+<body background="assessement.png">  
+<h1 class="btn btn-info" id="username"> </h1> 
+<button id="logout" onclick="logout()" style="height:auto">Logout </button></div>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+  <div class="carousel-inner">
+        <div class="item active">
+          <img id="codingpic" src="coding.jpg">
+          <button class="btn btn-primary" onclick="coding()"> Accept the Challenge</button>
+          </div>
+
+          <div class="item">
+          <img id="mathpic"src="math.jpg" >
+          <button class="btn btn-primary" onclick="math()"> Accept the Challenge</button>
+          </div>
+          <!-- Left and right controls -->  
+          <a id="p" class="left carousel-control " href="#myCarousel" data-slide="prev">
+          Previous Challenge
+          </a>
+          <a id="n" class="right carousel-control" href="#myCarousel" data-slide="next">
+              Next Challenge
+          </a>
+        </div>
+</div>
+<script>
+  username="";
+ username=localStorage.getItem("login");
+ document.getElementById("username").innerHTML= "Welcome "+ username +"<br> Are You Ready?";
+ </script>
+<script src="main.js"></script>
+</body>
+</html>
+
+
+</html>

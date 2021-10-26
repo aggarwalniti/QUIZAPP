@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    text-align: center;
+  }
+  
+  #pic1{
+    width:500px;
+    margin-left: 80px;
+  }
+  input{
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+  }
+
+  #sign_in{
+    background-color: #B5DEFF;
+    color: black;
+    width: 200px;
+    height: 30px;
+    border-radius:10px;
+    font-family: 'Rubik Beastly', cursive;
+  }
+  
+div{
+  margin-top: 50px;
+}
+
+#username{
+  font-family: 'Monoton', cursive;
+  font-size: 40px;
+}
+h1{
+  font-family: 'Monoton', cursive;
+  font-size: 50px;
+}
+
+#codingpic,#mathpic{
+  width: 40%;
+  height:40%;
+  margin: auto;
+}
+
+
+#p,#n{
+  color:white ;
+  background-color:rgb(216, 20, 206);
+  text-align:center;
+  width: 100px;
+  height:100px;
+  text-align: center;
+  margin:100px;
+  border-radius:20px;
+}
+
+
+
+#logout{
+  float:right;
+  font-family: 'Monoton', cursive;
+  font-size: 30px;
+  width:100px! important;
+}
+
+
+
+
