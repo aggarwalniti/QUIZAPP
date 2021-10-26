@@ -1,0 +1,43 @@
+<html>
+
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title> Quiz App</title>
+  <link rel="stylesheet" type="text/css" href="coding.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+</head>
+
+<body>
+  <button onclick="back();" class="glyphicon glyphicon-arrow-left btn-danger">Choose</button>
+  <div id="container">
+        <section>
+          
+          <form id="quiz" onsubmit="return submitMathAnswers()">
+            <h3>1.The number of 3-digit numbers divisible by 6, is ………….</h3>
+            <input type="radio" name="q1" value="a" id="q1a">a. 149<br>
+            <input type="radio" name="q1" value="b" id="q1b">b. 166<br>
+            <input type="radio" name="q1" value="c" id="q1c">c. 150<br>
+            <input type="radio" name="q1" value="d" id="q1d">d. 151<br>
+            <label style="font-size: 20px;"id="ans0"></label>
+                     
+            <div id="submitInput">
+            <input id="submit" type="submit" value="Submit Answers">
+            <input type="submit" value="Restart" onclick="reload()">
+            </div>
+          </form>
+          <div id="results"> </div>
+        </section>
+    <script src="main.js"></script>
+  </div>
+</body>
+</html>
+
+
+</html>
